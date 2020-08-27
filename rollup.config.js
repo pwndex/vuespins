@@ -18,7 +18,7 @@ const esbrowserslist = fs
 
 const argv = minimist(process.argv.slice(2))
 
-const projectRoot = path.resolve(__dirname, '..')
+const projectRoot = path.resolve(__dirname, '')
 
 const baseConfig = {
   input: 'src/index.js',
