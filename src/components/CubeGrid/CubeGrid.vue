@@ -1,5 +1,5 @@
 <template>
-  <div class="sk-cube-grid">
+  <div class="sk-cube-grid" :style="cssVars">
     <div class="sk-cube sk-cube1"></div>
     <div class="sk-cube sk-cube2"></div>
     <div class="sk-cube sk-cube3"></div>
@@ -15,21 +15,37 @@
 <script>
 export default {
   name: 'CubeGrid',
+  props: {
+    color: {
+      type: String,
+      default: '#333',
+    },
+    size: {
+      type: String,
+      default: '50',
+    },
+  },
+  computed: {
+    cssVars() {
+      return {
+        '--vcs-cube-grid-color': this.color,
+        '--vcs-cube-grid-size': this.size + 'px',
+      }
+    },
+  },
 }
 </script>
 
 <style scoped>
 .sk-cube-grid {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
+  width: var(--vcs-cube-grid-size);
+  height: var(--vcs-cube-grid-size);
 }
 
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
-  background-color: #333;
+  background-color: var(--vcs-cube-grid-color);
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;

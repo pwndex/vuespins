@@ -1,5 +1,5 @@
 <template>
-  <div class="lds-ring">
+  <div class="lds-ring" :style="cssVars">
     <div></div>
     <div></div>
     <div></div>
@@ -9,28 +9,49 @@
 
 <script>
 export default {
-  name: 'Ring', // vue component name
+  name: 'Ring',
+  props: {
+    color: {
+      type: String,
+      default: '#333',
+    },
+    size: {
+      type: String,
+      default: '50',
+    },
+    thickness: {
+      type: String,
+      default: '6',
+    },
+  },
+  computed: {
+    cssVars() {
+      return {
+        '--vcs-ring-color': this.color,
+        '--vcs-ring-size': this.size + 'px',
+        '--vcs-ring-thickness': this.thickness + 'px',
+      }
+    },
+  },
 }
 </script>
 
 <style scoped>
 .lds-ring {
-  display: inline-block;
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: var(--vcs-ring-size);
+  height: var(--vcs-ring-size);
 }
 .lds-ring div {
   box-sizing: border-box;
   display: block;
   position: absolute;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border: 8px solid #fff;
+  width: 100%;
+  height: 100%;
+  border: var(--vcs-ring-thickness) solid var(--vcs-ring-color);
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #1a1a1a transparent transparent transparent;
+  border-color: var(--vcs-ring-color) transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
   animation-delay: -0.45s;
