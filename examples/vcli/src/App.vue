@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <ring />
-    <cube-grid />
+    <ring color="#34495E" size="50" thickness="3" />
+    <cube-grid color="#34495E" size="50" />
   </div>
 </template>
 
@@ -13,11 +13,9 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
 }
 </style>
