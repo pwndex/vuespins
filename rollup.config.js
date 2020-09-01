@@ -71,7 +71,7 @@ if (!argv.format || argv.format === 'es') {
     ...baseConfig,
     external,
     output: {
-      file: 'dist/vue-css-spinners.esm.js',
+      file: 'dist/vuespins.esm.js',
       format: 'esm',
       exports: 'named'
     },
@@ -105,9 +105,9 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-css-spinners.ssr.js',
+      file: 'dist/vuespins.ssr.js',
       format: 'cjs',
-      name: 'VueCssSpinners',
+      name: 'Vuespins',
       exports: 'named',
       globals
     },
@@ -134,9 +134,9 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-css-spinners.min.js',
+      file: 'dist/vuespins.min.js',
       format: 'iife',
-      name: 'VueCssSpinners',
+      name: 'Vuespins',
       exports: 'named',
       globals
     },

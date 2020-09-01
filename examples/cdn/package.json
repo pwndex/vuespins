@@ -4,7 +4,7 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "vue-css-spinners": "file:../.."
+    "vuespins": "file:../.."
   },
   "devDependencies": {
     "serve": "^11.3.2"

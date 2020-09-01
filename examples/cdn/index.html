@@ -16,15 +16,15 @@
 <body>
   <div id="app"></div>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="./node_modules/vue-css-spinners/dist/vue-css-spinners.min.js"></script>
+  <script src="./node_modules/vuespins/dist/vuespins.min.js"></script>
   <script>
     new Vue({
       el: '#app',
       template: `
         <div class="container">
-          <ring color="#333" size="50" thickness="3" />
-          <cube-grid color="#333" size="50" />
-          <spinner color="#333" size="50" />
+          <Ring color="#333" size="50" thickness="3" />
+          <CubeGrid color="#333" size="50" />
+          <Spinner color="#333" size="50" />
         </div>
       `
     })

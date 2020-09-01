@@ -1,2 +1,3 @@
-# vue-css-spinners
+# vuespins
+
 Css Spinners for Vue

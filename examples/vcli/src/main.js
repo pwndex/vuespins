@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueCssSpinners from 'vue-css-spinners'
+import Vuespins from 'vuespins'
 
-Vue.use(VueCssSpinners)
+Vue.use(Vuespins)
 Vue.config.productionTip = false
 
 new Vue({
