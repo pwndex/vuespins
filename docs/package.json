@@ -1,0 +1,23 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "Css Spinners Docs for Vue",
+  "main": "index.js",
+  "authors": {
+    "name": "Amal Greenberg",
+    "email": "pwndex42@gmail.com"
+  },
+  "repository": "https://github.com/pwndex/vuespins/docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-register-components": "^1.5.4",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuespins": "file:.."
+  }
+}
