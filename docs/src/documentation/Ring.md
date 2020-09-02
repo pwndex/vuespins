@@ -13,13 +13,13 @@ Basic "Ring" component
 
 |  property   | propType | required | default | custom |
 | :---------: | :------: | :------: | :-----: | :----: |
-|   `color`   |  string  |    -     | #282c34 |   -    |
-|   `size`    |  string  |    -     |   50    |   -    |
-| `thickness` |  string  |    -     |    6    |   -    |
+|   `color`   |  string  |  false   | #282c34 |   -    |
+|   `size`    |  string  |  false   |   50    |   -    |
+| `thickness` |  string  |  false   |    6    |   -    |
 
 ### Usage
 
-<<< @/src/.vuepress/components/Ring/BasicRing.doc.vue
+<<< @/src/.vuepress/components/Ring/BasicRing.doc.vue{3,8,10-13}
 
 ## **Custom**
 
@@ -34,10 +34,10 @@ Custom "Ring" component
 
 |  property   | propType | required | default | custom  |
 | :---------: | :------: | :------: | :-----: | :-----: |
-|   `color`   |  string  |    -     | #282c34 | #fb503b |
-|   `size`    |  string  |    -     |   50    |   80    |
-| `thickness` |  string  |    -     |    6    |    1    |
+|   `color`   |  string  |  false   | #282c34 | #fb503b |
+|   `size`    |  string  |  false   |   50    |   80    |
+| `thickness` |  string  |  false   |    6    |    1    |
 
 ### Usage
 
-<<< @/src/.vuepress/components/Ring/CustomRing.doc.vue
+<<< @/src/.vuepress/components/Ring/CustomRing.doc.vue{3,8,10-13}

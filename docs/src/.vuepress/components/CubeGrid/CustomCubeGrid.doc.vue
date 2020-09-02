@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CubeGrid color="#282c34" size="80" />
+    <CubeGrid color="#fb503b" size="80" />
   </div>
 </template>
 
@@ -8,6 +8,7 @@
 import { CubeGrid } from 'vuespins'
 
 export default {
+  name: 'app',
   components: { CubeGrid },
 }
 </script>

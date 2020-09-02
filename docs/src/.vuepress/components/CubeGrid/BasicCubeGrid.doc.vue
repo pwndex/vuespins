@@ -8,7 +8,7 @@
 import { CubeGrid } from 'vuespins'
 
 export default {
-  name: 'CubeGrid',
+  name: 'app',
   components: { CubeGrid },
 }
 </script>

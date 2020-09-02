@@ -8,6 +8,7 @@
 import { Ring } from 'vuespins'
 
 export default {
+  name: 'app',
   components: { Ring },
 }
 </script>

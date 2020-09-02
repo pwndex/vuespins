@@ -41,7 +41,7 @@ Vue.use(Vuespins)
 
 After above steps, simply use any spinners in your Vue components
 
-```vue
+```vue{4,7-11}
 <template>
   <div>
     // Basic Ring Spinner
@@ -59,7 +59,7 @@ After above steps, simply use any spinners in your Vue components
 
 Or you can import any spinner to your liking
 
-```vue
+```vue{4,7,11,13-16}
 <template>
   <div>
     // Basic Ring Spinner
@@ -74,9 +74,7 @@ import { CubeGrid } from 'vuespins'
 
 export default {
   name: 'app',
-  components: {
-    CubeGrid,
-  },
+  components: { CubeGrid },
 }
 </script>
 ```

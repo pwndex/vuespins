@@ -30,9 +30,11 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    logo:
+      'https://raw.githubusercontent.com/vuejs/art/master/logo-monochrome.svg',
     base: '/',
-    repo: 'https://github.com/pwndex/vuespins',
-    docsDir: 'docs',
+    repo: 'pwndex/vuespins',
+    docsDir: 'docs/src',
     docsBranch: 'master',
     editLinkText: 'Edit this page on GitHub',
     editLinks: true,
@@ -50,7 +52,7 @@ module.exports = {
         {
           title: 'Documentation',
           collapsable: false,
-          children: ['Installation', 'CubeGrid', 'Ring']
+          children: ['Installation', 'Ring', 'CubeGrid', 'Spinner']
         }
       ]
     }

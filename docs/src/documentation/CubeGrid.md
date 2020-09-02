@@ -4,7 +4,7 @@
 
 <br>
 <client-only>
-<cube-grid />
+<CubeGrid />
 </client-only>
 
 ### Props
@@ -13,12 +13,12 @@ Basic "CubeGrid" component
 
 | property | propType | required | default | custom |
 | :------: | :------: | :------: | :-----: | :----: |
-| `color`  |  string  |    -     | #282c34 |   -    |
-|  `size`  |  string  |    -     |   50    |   -    |
+| `color`  |  string  |  false   | #282c34 |   -    |
+|  `size`  |  string  |  false   |   50    |   -    |
 
 ### Usage
 
-<<< @/src/.vuepress/components/CubeGrid/BasicCubeGrid.doc.vue
+<<< @/src/.vuepress/components/CubeGrid/BasicCubeGrid.doc.vue{3,8,10-13}
 
 ## **Custom**
 
@@ -33,9 +33,9 @@ Custom "CubeGrid" component
 
 | property | propType | required | default | custom  |
 | :------: | :------: | :------: | :-----: | :-----: |
-| `color`  |  string  |    -     | #282c34 | #fb503b |
-|  `size`  |  number  |    -     |   50    |   80    |
+| `color`  |  string  |  false   | #282c34 | #fb503b |
+|  `size`  |  number  |  false   |   50    |   80    |
 
 ### Usage
 
-<<< @/src/.vuepress/components/CubeGrid/CustomCubeGrid.doc.vue
+<<< @/src/.vuepress/components/CubeGrid/CustomCubeGrid.doc.vue{3,8,10-13}
