@@ -2,7 +2,10 @@
 
 ## **Basic**
 
-<br><Ring />
+<br>
+<client-only>
+<Ring />
+</client-only>
 
 ### Props
 
@@ -20,7 +23,10 @@ Basic "Ring" component
 
 ## **Custom**
 
-<br><Ring color="#fb503b" size="80" thickness="1" />
+<br>
+<client-only>
+<Ring color="#fb503b" size="80" thickness="1" />
+</client-only>
 
 ### Props
 

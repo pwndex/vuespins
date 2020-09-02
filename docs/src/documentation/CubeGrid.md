@@ -2,7 +2,10 @@
 
 ## **Basic**
 
-<br><CubeGrid />
+<br>
+<client-only>
+<cube-grid />
+</client-only>
 
 ### Props
 
@@ -19,7 +22,10 @@ Basic "CubeGrid" component
 
 ## **Custom**
 
-<br><CubeGrid color="#fb503b" size="80" />
+<br>
+<client-only>
+<CubeGrid color="#fb503b" size="80" />
+</client-only>
 
 ### Props
 

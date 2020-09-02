@@ -7,7 +7,7 @@
 
 ## Quick Start
 
-To install **vuespins**, open up your terminal and run
+To install it, open up your terminal and run
 
 ```shell
 npm install vuespins
@@ -15,41 +15,20 @@ npm install vuespins
 yarn add vuespins
 ```
 
-Import any spinner and customize it to your liking
+## Usage
 
-```vue
-<template>
-  <div>
-    <div>
-      <CubeGrid />
-    </div>
-    <div>
-      <CubeGrid color="#282c34" size="80" />
-    </div>
-    <div>
-      <CubeGrid color="red" size="30" />
-    </div>
-  </div>
-</template>
-
-<script>
-import { CubeGrid } from 'vuespins'
-
-export default {
-  components: { CubeGrid },
-}
-</script>
-```
-
-## CDN
+### Browser
 
 ```html
-<script src="./node_modules/vuespins/dist/vuespins.min.js"></script>
+<!-- Include after Vue -->
+<!-- Local files -->
+<script src="/vuespins/dist/vuespins.min.js"></script>
+
+<!-- CDN -->
+<script src="https://unpkg.com/vuespins@latest/dist/vuespins.min.js"></script>
 ```
 
-## Global Registration
-
-Import **vuespins** and `Vue.use()` it
+### Bandler (Webpack, Rollup)
 
 ```js
 import Vue from 'vue'
@@ -58,26 +37,53 @@ import Vuespins from 'vuespins'
 Vue.use(Vuespins)
 ```
 
-Then you can use spinners anywhere in your project
+### How to use it?
+
+After above steps, simply use any spinners in your Vue components
 
 ```vue
 <template>
   <div>
-    <div>
-      <CubeGrid />
-    </div>
-    <div>
-      <CubeGrid color="#282c34" size="80" />
-    </div>
-    <div>
-      <CubeGrid color="red" size="30" />
-    </div>
+    // Basic Ring Spinner
+    <Ring />
+
+    // Custom Ring Spinner
+    <Ring
+      color="custom-color"
+      size="custom-size"
+      thickness="custom-thickness"
+    />
   </div>
 </template>
+```
 
+Or you can import any spinner to your liking
+
+```vue
+<template>
+  <div>
+    // Basic Ring Spinner
+    <CubeGrid />
+
+    // Custom Ring Spinner
+    <CubeGrid color="custom-color" size="custom-size" />
+  </div>
+</template>
 <script>
+import { CubeGrid } from 'vuespins'
+
 export default {
-  name: 'custom-component',
+  name: 'app',
+  components: {
+    CubeGrid,
+  },
 }
 </script>
 ```
+
+## Examples
+
+You will find further demos under `/examples` folder
+
+- [CDN](https://github.com/pwndex/vuespins/blob/master/examples/cdn)
+- [Vue-CLI](https://github.com/pwndex/vuespins/blob/master/examples/vcli)

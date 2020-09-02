@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: `${pkg.name} (${pkg.version})`,
+  title: pkg.name,
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -30,7 +30,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    base: '',
+    base: '/',
     repo: 'https://github.com/pwndex/vuespins',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -55,8 +55,4 @@ module.exports = {
       ]
     }
   }
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
 }
