@@ -9,6 +9,6 @@ import { Spinner } from 'vuespins'
 
 export default {
   name: 'app',
-  components: { Spinner },
+  components: { Spinner }
 }
 </script>

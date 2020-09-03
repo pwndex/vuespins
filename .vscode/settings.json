@@ -1,6 +1,5 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  }
+  "vetur.format.defaultFormatter.html": "js-beautify-html"
 }
