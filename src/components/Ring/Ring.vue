@@ -13,26 +13,26 @@ export default {
   props: {
     color: {
       type: String,
-      default: '#282c34',
+      default: '#282c34'
     },
     size: {
       type: String,
-      default: '50',
+      default: '50'
     },
     thickness: {
       type: String,
-      default: '6',
-    },
+      default: '6'
+    }
   },
   computed: {
-    cssVars() {
+    cssVars () {
       return {
         '--vcs-ring-color': this.color,
         '--vcs-ring-size': this.size + 'px',
-        '--vcs-ring-thickness': this.thickness + 'px',
+        '--vcs-ring-thickness': this.thickness + 'px'
       }
-    },
-  },
+    }
+  }
 }
 </script>
 

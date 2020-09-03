@@ -18,21 +18,21 @@ export default {
   props: {
     color: {
       type: String,
-      default: '#282c34',
+      default: '#282c34'
     },
     size: {
       type: String,
-      default: '50',
-    },
+      default: '50'
+    }
   },
   computed: {
-    cssVars() {
+    cssVars () {
       return {
         '--vcs-cube-grid-color': this.color,
-        '--vcs-cube-grid-size': this.size + 'px',
+        '--vcs-cube-grid-size': this.size + 'px'
       }
-    },
-  },
+    }
+  }
 }
 </script>
 

@@ -11,21 +11,21 @@ export default {
   props: {
     color: {
       type: String,
-      default: '#282c34',
+      default: '#282c34'
     },
     size: {
       type: String,
-      default: '50',
-    },
+      default: '50'
+    }
   },
   computed: {
-    cssVars() {
+    cssVars () {
       return {
         '--vcs-spinner-size': this.size + 'px',
-        '--vcs-spinner-color': this.color,
+        '--vcs-spinner-color': this.color
       }
-    },
-  },
+    }
+  }
 }
 </script>
 

@@ -2,7 +2,7 @@
 import * as components from '@/components/index'
 
 // install function executed by Vue.use()
-const install = function installVueCssSpinners (Vue) {
+const install = function installVueCssSpinners(Vue) {
   if (install.installed) return
   install.installed = true
   Object.entries(components).forEach(([componentName, component]) => {

@@ -1,5 +1,15 @@
 {
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.jsxBracketSameLine": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.enable": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "vetur.format.defaultFormatter.html": "js-beautify-html"
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
