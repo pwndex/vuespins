@@ -4,12 +4,12 @@
     "es2020": true,
     "node": true
   },
-  "extends": ["plugin:vue/essential", "standard"],
+  "extends": ["plugin:vue/essential", "standard", "plugin:jest/recommended"],
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
-  "plugins": ["vue"],
+  "plugins": ["vue", "jest"],
   "rules": {
     "semi": ["error", "never"],
     "space-before-function-paren": ["error", "never"]

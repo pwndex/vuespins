@@ -26,7 +26,7 @@ export default {
     }
   },
   computed: {
-    cssVars () {
+    cssVars() {
       return {
         '--vcs-cube-grid-color': this.color,
         '--vcs-cube-grid-size': this.size + 'px'
