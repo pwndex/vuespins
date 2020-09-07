@@ -18,7 +18,7 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config rollup.config.js --format iife",
     "lint": "eslint '**/*.js'",
     "lint:fix": "prettier-eslint \"$(pwd)/**/*.js\" --write",
-    "test": "jest",
+    "test": "jest src",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
   },

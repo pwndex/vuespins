@@ -14,7 +14,7 @@ const esbrowserslist = fs
   .readFileSync('./.browserslistrc')
   .toString()
   .split('\n')
-  .filter((entry) => entry && entry.substring(0, 2) !== 'ie')
+  .filter(entry => entry && entry.substring(0, 2) !== 'ie')
 
 const argv = minimist(process.argv.slice(2))
 
