@@ -9,6 +9,25 @@
 <br>
 <br>
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/vuespins">
+    <img src="https://img.shields.io/npm/v/vuespins.svg" alt="NPM version" />
+  </a>
+  <a href="https://travis-ci.com/pwndex/vuespins">
+    <img src="https://travis-ci.com/pwndex/vuespins.svg?branch=master" alt="Build Status" />
+  </a>
+  <a href="https://coveralls.io/github/pwndex/vuespins?branch=master">
+    <img src="https://coveralls.io/repos/github/pwndex/vuespins/badge.svg?branch=master" alt="Coverage Status" />
+  </a>
+  <a href="https://bundlephobia.com/result?p=vuespins@latest">
+    <img src="https://img.shields.io/bundlephobia/min/vuespins@latest.svg" alt="Minified Size" />
+  </a>
+  <a href="https://github.com/pwndex/vuespins/blob/master/LICENSE">
+    <img src="https://img.shields.io/npm/l/vuespins.svg" alt="MIT License" />
+  </a>
+</p>
+<br>
+
 # Installation
 
 ### Demo
