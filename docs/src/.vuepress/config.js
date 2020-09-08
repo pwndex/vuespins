@@ -1,6 +1,7 @@
 const pkg = require('../../../package.json')
 
 module.exports = {
+  base: '/vuespins/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -32,7 +33,6 @@ module.exports = {
   themeConfig: {
     logo:
       'https://raw.githubusercontent.com/vuejs/art/master/logo-monochrome.svg',
-    base: '/',
     repo: 'pwndex/vuespins',
     docsDir: 'docs/src',
     docsBranch: 'master',

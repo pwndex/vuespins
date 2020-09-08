@@ -1,7 +1,7 @@
 {
   "name": "docs",
-  "version": "0.0.1",
-  "description": "Css Spinners Docs for Vue",
+  "version": "1.0.0",
+  "description": "Vuespins Docs",
   "main": "index.js",
   "authors": {
     "name": "Amal Greenberg",
@@ -14,7 +14,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-register-components": "^1.5.4",
     "vuepress": "^1.5.3"
   },
   "dependencies": {
