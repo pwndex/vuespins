@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
-  "dependencies": {
-    "vuespins": "file:../.."
-  },
+  "dependencies": {},
   "devDependencies": {
     "serve": "^11.3.2"
   }

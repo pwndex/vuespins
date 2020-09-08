@@ -17,6 +17,6 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
-    "vuespins": "file:.."
+    "vuespins": "^1.0.0"
   }
 }
