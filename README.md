@@ -56,7 +56,7 @@ yarn add vuespins
 ```html
 <!-- Include after Vue -->
 <!-- Local files -->
-<script src="/vuespins/dist/vuespins.min.js"></script>
+<script src="/node_modules/vuespins/dist/vuespins.min.js"></script>
 
 <!-- CDN -->
 <script src="https://unpkg.com/vuespins@latest/dist/vuespins.min.js"></script>

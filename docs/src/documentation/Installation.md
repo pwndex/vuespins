@@ -28,7 +28,7 @@ yarn add vuespins
 <script src="https://unpkg.com/vuespins@latest/dist/vuespins.min.js"></script>
 ```
 
-### Bandler (Webpack, Rollup)
+### Bundler (Webpack, Rollup)
 
 ```js
 import Vue from 'vue'
