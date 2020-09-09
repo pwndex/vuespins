@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner.vue renders correctly 1`] = `
+<div
+  class="spinner"
+  style="--vcs-spinner-size: 50px; --vcs-spinner-color: #282c34;"
+>
+  <div
+    class="dot1"
+  />
+   
+  <div
+    class="dot2"
+  />
+</div>
+`;
