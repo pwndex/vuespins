@@ -13,6 +13,9 @@
   <a href="https://www.npmjs.com/package/vuespins">
     <img src="https://img.shields.io/npm/v/vuespins.svg" alt="NPM version" />
   </a>
+  <a href="https://vuejs.org">
+    <img src="https://img.shields.io/badge/vue-2.x-brightgreen.svg" alt="Vue version" />
+  </a>
   <a href="https://travis-ci.com/pwndex/vuespins">
     <img src="https://travis-ci.com/pwndex/vuespins.svg?branch=master" alt="Build Status" />
   </a>
@@ -122,6 +125,14 @@ You will find further demos under `/examples` folder
 - [CDN](./examples/cdn)
 - [Vue-CLI](./examples/vcli)
 
+## Contributing
+
+1. Fork it
+2. Create your feature branch: git checkout -b my-new-feature
+3. Commit your changes: git commit -m "feat: add some feature"
+4. Push to the branch: git push origin my-new-feature
+5. Submit a pull request
+
 ## Copyright
 
-MIT Licensed | Copyright © 2020-present Amal Greenberg
+[MIT Licensed](https://github.com/pwndex/vuespins/blob/master/LICENSE) | Copyright © 2020 Amal' Greenberg

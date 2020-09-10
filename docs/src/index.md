@@ -7,10 +7,10 @@ actionText: Get Started →
 actionLink: /documentation/installation/
 features:
   - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+    details: Minimal setup, just import and use it anywhere.
+  - title: Lots of Spinners
+    details: Enjoy the huge amount of spinners for any taste.
+  - title: Fully Customizable
+    details: Customize spinners via passing props.
 footer: Made with ❤ by Pwndex
 ---
