@@ -22,14 +22,19 @@ export default {
     thickness: {
       type: String,
       default: '6'
+    },
+    speed: {
+      type: String,
+      default: '1.2'
     }
   },
   computed: {
-    cssVars () {
+    cssVars() {
       return {
         '--vcs-ring-color': this.color,
         '--vcs-ring-size': this.size + 'px',
-        '--vcs-ring-thickness': this.thickness + 'px'
+        '--vcs-ring-thickness': this.thickness + 'px',
+        '--vcs-ring-speed': this.speed + 's'
       }
     }
   }
@@ -41,6 +46,7 @@ export default {
   position: relative;
   width: var(--vcs-ring-size);
   height: var(--vcs-ring-size);
+  animation-duration: var(--vcs-ring-speed);
 }
 .lds-ring div {
   box-sizing: border-box;
@@ -50,16 +56,22 @@ export default {
   height: 100%;
   border: var(--vcs-ring-thickness) solid var(--vcs-ring-color);
   border-radius: 50%;
-  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  -webkit-animation: lds-ring var(--vcs-ring-speed) cubic-bezier(0.5, 0, 0.5, 1)
+    infinite;
+  animation: lds-ring var(--vcs-ring-speed) cubic-bezier(0.5, 0, 0.5, 1)
+    infinite;
   border-color: var(--vcs-ring-color) transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
+  -webkit-animation-delay: -0.45s;
   animation-delay: -0.45s;
 }
 .lds-ring div:nth-child(2) {
+  -webkit-animation-delay: -0.3s;
   animation-delay: -0.3s;
 }
 .lds-ring div:nth-child(3) {
+  -webkit-animation-delay: -0.15s;
   animation-delay: -0.15s;
 }
 @keyframes lds-ring {
