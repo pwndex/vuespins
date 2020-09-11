@@ -3,7 +3,7 @@
 exports[`CubeGrid.vue renders correctly 1`] = `
 <div
   class="sk-cube-grid"
-  style="--vcs-cube-grid-color: #282c34; --vcs-cube-grid-size: 50px;"
+  style="--vcs-cube-grid-color: #282c34; --vcs-cube-grid-size: 50px; --vcs-cube-grid-speed: 1.3s;"
 >
   <div
     class="sk-cube sk-cube1"
