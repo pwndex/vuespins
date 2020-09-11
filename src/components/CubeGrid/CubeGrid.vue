@@ -23,13 +23,18 @@ export default {
     size: {
       type: String,
       default: '50'
+    },
+    speed: {
+      type: String,
+      default: '1.3'
     }
   },
   computed: {
     cssVars() {
       return {
         '--vcs-cube-grid-color': this.color,
-        '--vcs-cube-grid-size': this.size + 'px'
+        '--vcs-cube-grid-size': this.size + 'px',
+        '--vcs-cube-grid-speed': this.speed + 's'
       }
     }
   }
@@ -40,6 +45,7 @@ export default {
 .sk-cube-grid {
   width: var(--vcs-cube-grid-size);
   height: var(--vcs-cube-grid-size);
+  animation-duration: var(--vcs-cube-grid-speed);
 }
 
 .sk-cube-grid .sk-cube {
@@ -47,8 +53,10 @@ export default {
   height: 33%;
   background-color: var(--vcs-cube-grid-color);
   float: left;
-  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  -webkit-animation: sk-cubeGridScaleDelay var(--vcs-cube-grid-speed) infinite
+    ease-in-out;
+  animation: sk-cubeGridScaleDelay var(--vcs-cube-grid-speed) infinite
+    ease-in-out;
 }
 .sk-cube-grid .sk-cube1 {
   -webkit-animation-delay: 0.2s;
