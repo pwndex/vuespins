@@ -16,13 +16,19 @@ export default {
     size: {
       type: String,
       default: '50'
+    },
+    speed: {
+      type: String,
+      default: '2'
     }
   },
   computed: {
-    cssVars () {
+    cssVars() {
       return {
         '--vcs-spinner-size': this.size + 'px',
-        '--vcs-spinner-color': this.color
+        '--vcs-spinner-color': this.color,
+        '--vcs-spinner-speed': this.speed + 's',
+        '--vcs-spinner-delay': -this.speed / 2 + 's'
       }
     }
   }
@@ -34,8 +40,8 @@ export default {
   width: var(--vcs-spinner-size);
   height: var(--vcs-spinner-size);
   position: relative;
-  -webkit-animation: sk-rotate 2s infinite linear;
-  animation: sk-rotate 2s infinite linear;
+  -webkit-animation: sk-rotate var(--vcs-spinner-speed) infinite linear;
+  animation: sk-rotate var(--vcs-spinner-speed) infinite linear;
 }
 
 .dot1,
@@ -47,15 +53,15 @@ export default {
   top: 0;
   background-color: var(--vcs-spinner-color);
   border-radius: 100%;
-  -webkit-animation: sk-bounce 2s infinite ease-in-out;
-  animation: sk-bounce 2s infinite ease-in-out;
+  -webkit-animation: sk-bounce var(--vcs-spinner-speed) infinite ease-in-out;
+  animation: sk-bounce var(--vcs-spinner-speed) infinite ease-in-out;
 }
 
 .dot2 {
   top: auto;
   bottom: 0;
-  -webkit-animation-delay: -1s;
-  animation-delay: -1s;
+  -webkit-animation-delay: var(--vcs-spinner-delay);
+  animation-delay: var(--vcs-spinner-delay);
 }
 
 @-webkit-keyframes sk-rotate {
