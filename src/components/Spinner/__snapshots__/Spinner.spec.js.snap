@@ -3,7 +3,7 @@
 exports[`Spinner.vue renders correctly 1`] = `
 <div
   class="spinner"
-  style="--vcs-spinner-size: 50px; --vcs-spinner-color: #282c34;"
+  style="--vcs-spinner-size: 50px; --vcs-spinner-color: #282c34; --vcs-spinner-speed: 2s; --vcs-spinner-delay: -1s;"
 >
   <div
     class="dot1"
