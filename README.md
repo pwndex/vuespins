@@ -22,9 +22,6 @@
   <a href="https://coveralls.io/github/pwndex/vuespins?branch=master">
     <img src="https://coveralls.io/repos/github/pwndex/vuespins/badge.svg?branch=master" alt="Coverage Status" />
   </a>
-  <a href="https://pwndex.github.io/vuespins">
-    <img src="https://img.shields.io/github/downloads/pwndex/vuespins/total?color=success&label=github%20downloads" alt="GitHub Downloads" />
-  </a>
   <a href="https://www.npmjs.com/package/vuespins">
     <img src="https://img.shields.io/npm/dt/vuespins?color=success&label=npm%20downloads" alt="NPM Downloads" />
   </a>
