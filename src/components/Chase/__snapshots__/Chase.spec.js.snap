@@ -3,7 +3,7 @@
 exports[`Chase.vue renders correctly 1`] = `
 <div
   class="vs-chase"
-  style="--vs-chase-size: 50px; --vs-chase-color: #282c34; --vs-chase-speed: 2.5s; --vs-chase-delay: 2s;"
+  style="--vs-chase-size: 50px; --vs-chase-color: #282c34; --vs-chase-speed: 2.5s; --vs-chase-delay: 2s; --vs-chase-delay-1: -1.1s; --vs-chase-delay-2: -1s; --vs-chase-delay-3: -0.8999999999999999s; --vs-chase-delay-4: -0.7999999999999998s; --vs-chase-delay-5: -0.7000000000000002s; --vs-chase-delay-6: -0.6000000000000001s;"
 >
   <div
     class="vs-chase-dot"
