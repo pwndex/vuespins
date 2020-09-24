@@ -57,7 +57,8 @@ module.exports = {
             'Spinner',
             'Chase',
             'Pulse',
-            'Square'
+            'Square',
+            'RectGrid'
           ]
         }
       ]

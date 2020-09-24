@@ -1,15 +1,15 @@
-# Square
+# Chase
 
 ## **Basic**
 
 <br>
 <client-only>
-<Square />
+<RectGrid />
 </client-only>
 
 ### Props
 
-Basic "Square" component
+Basic "RectGrid" component
 
 | property | propType | required | default | custom |
 | :------: | :------: | :------: | :-----: | :----: |
@@ -19,25 +19,25 @@ Basic "Square" component
 
 ### Usage
 
-<<< @/src/.vuepress/components/Square/BasicSquare.doc.vue{3,8,10-13}
+<<< @/src/.vuepress/components/RectGrid/BasicRectGrid.doc.vue{3,8,10-13}
 
 ## **Custom**
 
 <br>
 <client-only>
-<Square color="#fb503b" size="80" speed="5" />
+<RectGrid color="#fb503b" size="80" speed="3" />
 </client-only>
 
 ### Props
 
-Custom "Square" component
+Custom "RectGrid" component
 
 | property | propType | required | default | custom  |
 | :------: | :------: | :------: | :-----: | :-----: |
 | `color`  |  string  |  false   | #282c34 | #fb503b |
 |  `size`  |  string  |  false   |   50    |   80    |
-| `speed`  |  string  |  false   |   1.2   |    5    |
+| `speed`  |  string  |  false   |   1.2   |    3    |
 
 ### Usage
 
-<<< @/src/.vuepress/components/Square/CustomSquare.doc.vue{3,8,10-13}
+<<< @/src/.vuepress/components/RectGrid/CustomRectGrid.doc.vue{3,8,10-13}
