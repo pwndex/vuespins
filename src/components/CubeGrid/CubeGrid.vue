@@ -1,20 +1,20 @@
 <template>
-  <div class="sk-cube-grid" :style="cssVars">
-    <div class="sk-cube sk-cube1"></div>
-    <div class="sk-cube sk-cube2"></div>
-    <div class="sk-cube sk-cube3"></div>
-    <div class="sk-cube sk-cube4"></div>
-    <div class="sk-cube sk-cube5"></div>
-    <div class="sk-cube sk-cube6"></div>
-    <div class="sk-cube sk-cube7"></div>
-    <div class="sk-cube sk-cube8"></div>
-    <div class="sk-cube sk-cube9"></div>
+  <div class="vs-cube-grid" :style="cssVars">
+    <div class="vs-cube vs-cube1"></div>
+    <div class="vs-cube vs-cube2"></div>
+    <div class="vs-cube vs-cube3"></div>
+    <div class="vs-cube vs-cube4"></div>
+    <div class="vs-cube vs-cube5"></div>
+    <div class="vs-cube vs-cube6"></div>
+    <div class="vs-cube vs-cube7"></div>
+    <div class="vs-cube vs-cube8"></div>
+    <div class="vs-cube vs-cube9"></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'CubeGrid',
+  name: 'vs-cube-grid',
   props: {
     color: {
       type: String,
@@ -32,9 +32,9 @@ export default {
   computed: {
     cssVars() {
       return {
-        '--vcs-cube-grid-color': this.color,
-        '--vcs-cube-grid-size': this.size + 'px',
-        '--vcs-cube-grid-speed': this.speed + 's'
+        '--vs-cube-grid-color': this.color,
+        '--vs-cube-grid-size': this.size + 'px',
+        '--vs-cube-grid-speed': this.speed + 's'
       }
     }
   }
@@ -42,60 +42,60 @@ export default {
 </script>
 
 <style scoped>
-.sk-cube-grid {
-  width: var(--vcs-cube-grid-size);
-  height: var(--vcs-cube-grid-size);
-  animation-duration: var(--vcs-cube-grid-speed);
+.vs-cube-grid {
+  width: var(--vs-cube-grid-size);
+  height: var(--vs-cube-grid-size);
+  animation-duration: var(--vs-cube-grid-speed);
 }
 
-.sk-cube-grid .sk-cube {
+.vs-cube-grid .vs-cube {
   width: 33%;
   height: 33%;
-  background-color: var(--vcs-cube-grid-color);
+  background-color: var(--vs-cube-grid-color);
   float: left;
-  -webkit-animation: sk-cubeGridScaleDelay var(--vcs-cube-grid-speed) infinite
+  -webkit-animation: vs-cubeGridScaleDelay var(--vs-cube-grid-speed) infinite
     ease-in-out;
-  animation: sk-cubeGridScaleDelay var(--vcs-cube-grid-speed) infinite
+  animation: vs-cubeGridScaleDelay var(--vs-cube-grid-speed) infinite
     ease-in-out;
 }
-.sk-cube-grid .sk-cube1 {
+.vs-cube-grid .vs-cube1 {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
-.sk-cube-grid .sk-cube2 {
+.vs-cube-grid .vs-cube2 {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
-.sk-cube-grid .sk-cube3 {
+.vs-cube-grid .vs-cube3 {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
-.sk-cube-grid .sk-cube4 {
+.vs-cube-grid .vs-cube4 {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
-.sk-cube-grid .sk-cube5 {
+.vs-cube-grid .vs-cube5 {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
-.sk-cube-grid .sk-cube6 {
+.vs-cube-grid .vs-cube6 {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
-.sk-cube-grid .sk-cube7 {
+.vs-cube-grid .vs-cube7 {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
-.sk-cube-grid .sk-cube8 {
+.vs-cube-grid .vs-cube8 {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
-.sk-cube-grid .sk-cube9 {
+.vs-cube-grid .vs-cube9 {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-@-webkit-keyframes sk-cubeGridScaleDelay {
+@-webkit-keyframes vs-cubeGridScaleDelay {
   0%,
   70%,
   100% {
@@ -108,7 +108,7 @@ export default {
   }
 }
 
-@keyframes sk-cubeGridScaleDelay {
+@keyframes vs-cubeGridScaleDelay {
   0%,
   70%,
   100% {

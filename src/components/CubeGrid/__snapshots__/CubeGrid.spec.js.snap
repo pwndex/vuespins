@@ -2,43 +2,43 @@
 
 exports[`CubeGrid.vue renders correctly 1`] = `
 <div
-  class="sk-cube-grid"
-  style="--vcs-cube-grid-color: #282c34; --vcs-cube-grid-size: 50px; --vcs-cube-grid-speed: 1.3s;"
+  class="vs-cube-grid"
+  style="--vs-cube-grid-color: #282c34; --vs-cube-grid-size: 50px; --vs-cube-grid-speed: 1.3s;"
 >
   <div
-    class="sk-cube sk-cube1"
+    class="vs-cube vs-cube1"
   />
    
   <div
-    class="sk-cube sk-cube2"
+    class="vs-cube vs-cube2"
   />
    
   <div
-    class="sk-cube sk-cube3"
+    class="vs-cube vs-cube3"
   />
    
   <div
-    class="sk-cube sk-cube4"
+    class="vs-cube vs-cube4"
   />
    
   <div
-    class="sk-cube sk-cube5"
+    class="vs-cube vs-cube5"
   />
    
   <div
-    class="sk-cube sk-cube6"
+    class="vs-cube vs-cube6"
   />
    
   <div
-    class="sk-cube sk-cube7"
+    class="vs-cube vs-cube7"
   />
    
   <div
-    class="sk-cube sk-cube8"
+    class="vs-cube vs-cube8"
   />
    
   <div
-    class="sk-cube sk-cube9"
+    class="vs-cube vs-cube9"
   />
 </div>
 `;

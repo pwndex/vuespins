@@ -2,8 +2,8 @@
 
 exports[`Ring.vue renders correctly 1`] = `
 <div
-  class="lds-ring"
-  style="--vcs-ring-color: #282c34; --vcs-ring-size: 50px; --vcs-ring-thickness: 6px; --vcs-ring-speed: 1.2s;"
+  class="vs-ring"
+  style="--vs-ring-color: #282c34; --vs-ring-size: 50px; --vs-ring-thickness: 6px; --vs-ring-speed: 1.2s;"
 >
   <div />
    

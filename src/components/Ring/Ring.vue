@@ -1,5 +1,5 @@
 <template>
-  <div class="lds-ring" :style="cssVars">
+  <div class="vs-ring" :style="cssVars">
     <div></div>
     <div></div>
     <div></div>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'Ring',
+  name: 'vs-ring',
   props: {
     color: {
       type: String,
@@ -31,10 +31,10 @@ export default {
   computed: {
     cssVars() {
       return {
-        '--vcs-ring-color': this.color,
-        '--vcs-ring-size': this.size + 'px',
-        '--vcs-ring-thickness': this.thickness + 'px',
-        '--vcs-ring-speed': this.speed + 's'
+        '--vs-ring-color': this.color,
+        '--vs-ring-size': this.size + 'px',
+        '--vs-ring-thickness': this.thickness + 'px',
+        '--vs-ring-speed': this.speed + 's'
       }
     }
   }
@@ -42,39 +42,38 @@ export default {
 </script>
 
 <style scoped>
-.lds-ring {
+.vs-ring {
   position: relative;
-  width: var(--vcs-ring-size);
-  height: var(--vcs-ring-size);
-  animation-duration: var(--vcs-ring-speed);
+  width: var(--vs-ring-size);
+  height: var(--vs-ring-size);
+  animation-duration: var(--vs-ring-speed);
 }
-.lds-ring div {
+.vs-ring div {
   box-sizing: border-box;
   display: block;
   position: absolute;
   width: 100%;
   height: 100%;
-  border: var(--vcs-ring-thickness) solid var(--vcs-ring-color);
+  border: var(--vs-ring-thickness) solid var(--vs-ring-color);
   border-radius: 50%;
-  -webkit-animation: lds-ring var(--vcs-ring-speed) cubic-bezier(0.5, 0, 0.5, 1)
+  -webkit-animation: vs-ring var(--vs-ring-speed) cubic-bezier(0.5, 0, 0.5, 1)
     infinite;
-  animation: lds-ring var(--vcs-ring-speed) cubic-bezier(0.5, 0, 0.5, 1)
-    infinite;
-  border-color: var(--vcs-ring-color) transparent transparent transparent;
+  animation: vs-ring var(--vs-ring-speed) cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: var(--vs-ring-color) transparent transparent transparent;
 }
-.lds-ring div:nth-child(1) {
+.vs-ring div:nth-child(1) {
   -webkit-animation-delay: -0.45s;
   animation-delay: -0.45s;
 }
-.lds-ring div:nth-child(2) {
+.vs-ring div:nth-child(2) {
   -webkit-animation-delay: -0.3s;
   animation-delay: -0.3s;
 }
-.lds-ring div:nth-child(3) {
+.vs-ring div:nth-child(3) {
   -webkit-animation-delay: -0.15s;
   animation-delay: -0.15s;
 }
-@keyframes lds-ring {
+@keyframes vs-ring {
   0% {
     transform: rotate(0deg);
   }

@@ -1,5 +1,5 @@
 <template>
-  <div class="spinner" :style="cssVars">
+  <div class="vs-spinner" :style="cssVars">
     <div class="dot1"></div>
     <div class="dot2"></div>
   </div>
@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: '',
+  name: 'vs-spinner',
   props: {
     color: {
       type: String,
@@ -25,10 +25,10 @@ export default {
   computed: {
     cssVars() {
       return {
-        '--vcs-spinner-size': this.size + 'px',
-        '--vcs-spinner-color': this.color,
-        '--vcs-spinner-speed': this.speed + 's',
-        '--vcs-spinner-delay': -this.speed / 2 + 's'
+        '--vs-spinner-size': this.size + 'px',
+        '--vs-spinner-color': this.color,
+        '--vs-spinner-speed': this.speed + 's',
+        '--vs-spinner-delay': -this.speed / 2 + 's'
       }
     }
   }
@@ -36,12 +36,12 @@ export default {
 </script>
 
 <style scoped>
-.spinner {
-  width: var(--vcs-spinner-size);
-  height: var(--vcs-spinner-size);
+.vs-spinner {
+  width: var(--vs-spinner-size);
+  height: var(--vs-spinner-size);
   position: relative;
-  -webkit-animation: sk-rotate var(--vcs-spinner-speed) infinite linear;
-  animation: sk-rotate var(--vcs-spinner-speed) infinite linear;
+  -webkit-animation: vs-rotate var(--vs-spinner-speed) infinite linear;
+  animation: vs-rotate var(--vs-spinner-speed) infinite linear;
 }
 
 .dot1,
@@ -51,32 +51,32 @@ export default {
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: var(--vcs-spinner-color);
+  background-color: var(--vs-spinner-color);
   border-radius: 100%;
-  -webkit-animation: sk-bounce var(--vcs-spinner-speed) infinite ease-in-out;
-  animation: sk-bounce var(--vcs-spinner-speed) infinite ease-in-out;
+  -webkit-animation: vs-bounce var(--vs-spinner-speed) infinite ease-in-out;
+  animation: vs-bounce var(--vs-spinner-speed) infinite ease-in-out;
 }
 
 .dot2 {
   top: auto;
   bottom: 0;
-  -webkit-animation-delay: var(--vcs-spinner-delay);
-  animation-delay: var(--vcs-spinner-delay);
+  -webkit-animation-delay: var(--vs-spinner-delay);
+  animation-delay: var(--vs-spinner-delay);
 }
 
-@-webkit-keyframes sk-rotate {
+@-webkit-keyframes vs-rotate {
   100% {
     -webkit-transform: rotate(360deg);
   }
 }
-@keyframes sk-rotate {
+@keyframes vs-rotate {
   100% {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
   }
 }
 
-@-webkit-keyframes sk-bounce {
+@-webkit-keyframes vs-bounce {
   0%,
   100% {
     -webkit-transform: scale(0);
@@ -86,7 +86,7 @@ export default {
   }
 }
 
-@keyframes sk-bounce {
+@keyframes vs-bounce {
   0%,
   100% {
     transform: scale(0);
