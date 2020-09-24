@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pulse.vue renders correctly 1`] = `
+<div
+  class="vs-pulse"
+  style="--vs-pulse-size: 50px; --vs-pulse-color: #282c34; --vs-pulse-speed: 2.5s; --vs-pulse-delay: -1.5s;"
+>
+  <div
+    class="double-bounce1"
+  />
+   
+  <div
+    class="double-bounce2"
+  />
+</div>
+`;
