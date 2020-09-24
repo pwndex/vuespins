@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Square.vue renders correctly 1`] = `
+<div
+  class="vs-square"
+  style="--vs-square-size: 50px; --vs-square-color: #282c34; --vs-square-speed: 1.2s;"
+/>
+`;
