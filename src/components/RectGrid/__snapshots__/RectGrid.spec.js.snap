@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RectGrid.vue renders correctly 1`] = `
+<div
+  class="vs-rect-grid"
+  style="--vs-rect-grid-size: 50px; --vs-rect-grid-color: #282c34; --vs-rect-grid-speed: 1.2s; --vs-rect-grid-delay-1: -1.0999999999999999s; --vs-rect-grid-delay-2: -1.0000000000000002s; --vs-rect-grid-delay-3: -0.9000000000000001s; --vs-rect-grid-delay-4: -0.8s; --vs-rect-grid-delay-5: -0.7s;"
+>
+  <div
+    class="rect1"
+  />
+   
+  <div
+    class="rect2"
+  />
+   
+  <div
+    class="rect3"
+  />
+   
+  <div
+    class="rect4"
+  />
+   
+  <div
+    class="rect5"
+  />
+</div>
+`;
