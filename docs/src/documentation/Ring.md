@@ -16,6 +16,7 @@ Basic "Ring" component
 |   `color`   |  string  |  false   | #282c34 |   -    |
 |   `size`    |  string  |  false   |   50    |   -    |
 | `thickness` |  string  |  false   |    6    |   -    |
+|   `speed`   |  string  |  false   |   1.2   |   -    |
 
 ### Usage
 
@@ -25,7 +26,7 @@ Basic "Ring" component
 
 <br>
 <client-only>
-<Ring color="#fb503b" size="80" thickness="1" />
+<Ring color="#fb503b" size="80" thickness="1" speed="3" />
 </client-only>
 
 ### Props
@@ -37,6 +38,7 @@ Custom "Ring" component
 |   `color`   |  string  |  false   | #282c34 | #fb503b |
 |   `size`    |  string  |  false   |   50    |   80    |
 | `thickness` |  string  |  false   |    6    |    1    |
+|   `speed`   |  string  |  false   |   1.2   |    3    |
 
 ### Usage
 

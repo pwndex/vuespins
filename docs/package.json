@@ -1,6 +1,6 @@
 {
   "name": "vuespins",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vuespins Docs",
   "main": "index.js",
   "authors": {
@@ -17,6 +17,6 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
-    "vuespins": "^1.0.2"
+    "vuespins": "^1.0.3"
   }
 }
