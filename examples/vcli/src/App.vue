@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Ring color="#333" size="50" thickness="3" />
+    <Ring color="#333" size="50" thickness="3" speed="5" />
     <CubeGrid color="#333" size="50" />
     <Spinner color="#333" size="50" />
   </div>
