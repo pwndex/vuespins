@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{355:function(e,n,t){"use strict";t.r(n);var u={name:"app",components:{CubeGrid:t(100).a}},a=t(45),i=Object(a.a)(u,(function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("CubeGrid")],1)}),[],!1,null,null,null);n.default=i.exports}}]);
