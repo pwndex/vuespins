@@ -50,7 +50,15 @@ module.exports = {
         {
           title: 'Documentation',
           collapsable: false,
-          children: ['Installation', 'Ring', 'CubeGrid', 'Spinner']
+          children: [
+            'Installation',
+            'Ring',
+            'CubeGrid',
+            'Spinner',
+            'Chase',
+            'Pulse',
+            'Square'
+          ]
         }
       ]
     }
