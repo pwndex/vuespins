@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chase.vue renders correctly 1`] = `
+<div
+  class="vs-chase"
+  style="--vs-chase-size: 50px; --vs-chase-color: #282c34; --vs-chase-speed: 2.5s; --vs-chase-delay: 2s;"
+>
+  <div
+    class="vs-chase-dot"
+  />
+   
+  <div
+    class="vs-chase-dot"
+  />
+   
+  <div
+    class="vs-chase-dot"
+  />
+   
+  <div
+    class="vs-chase-dot"
+  />
+   
+  <div
+    class="vs-chase-dot"
+  />
+   
+  <div
+    class="vs-chase-dot"
+  />
+</div>
+`;
