@@ -32,7 +32,13 @@ export default {
         '--vs-chase-size': this.size + 'px',
         '--vs-chase-color': this.color,
         '--vs-chase-speed': this.speed + 's',
-        '--vs-chase-delay': this.speed - 0.5 + 's'
+        '--vs-chase-delay': this.speed - 0.5 + 's',
+        '--vs-chase-delay-1': this.speed - 3.6 + 's',
+        '--vs-chase-delay-2': this.speed - 3.5 + 's',
+        '--vs-chase-delay-3': this.speed - 3.4 + 's',
+        '--vs-chase-delay-4': this.speed - 3.3 + 's',
+        '--vs-chase-delay-5': this.speed - 3.2 + 's',
+        '--vs-chase-delay-6': this.speed - 3.1 + 's'
       }
     }
   }
@@ -70,40 +76,40 @@ export default {
 }
 
 .vs-chase-dot:nth-child(1) {
-  animation-delay: -1.1s;
+  animation-delay: var(--vs-chase-delay-1);
 }
 .vs-chase-dot:nth-child(2) {
-  animation-delay: -1s;
+  animation-delay: var(--vs-chase-delay-2);
 }
 .vs-chase-dot:nth-child(3) {
-  animation-delay: -0.9s;
+  animation-delay: var(--vs-chase-delay-3);
 }
 .vs-chase-dot:nth-child(4) {
-  animation-delay: -0.8s;
+  animation-delay: var(--vs-chase-delay-4);
 }
 .vs-chase-dot:nth-child(5) {
-  animation-delay: -0.7s;
+  animation-delay: var(--vs-chase-delay-5);
 }
 .vs-chase-dot:nth-child(6) {
-  animation-delay: -0.6s;
+  animation-delay: var(--vs-chase-delay-6);
 }
 .vs-chase-dot:nth-child(1):before {
-  animation-delay: -1.1s;
+  animation-delay: var(--vs-chase-delay-1);
 }
 .vs-chase-dot:nth-child(2):before {
-  animation-delay: -1s;
+  animation-delay: var(--vs-chase-delay-2);
 }
 .vs-chase-dot:nth-child(3):before {
-  animation-delay: -0.9s;
+  animation-delay: var(--vs-chase-delay-3);
 }
 .vs-chase-dot:nth-child(4):before {
-  animation-delay: -0.8s;
+  animation-delay: var(--vs-chase-delay-4);
 }
 .vs-chase-dot:nth-child(5):before {
-  animation-delay: -0.7s;
+  animation-delay: var(--vs-chase-delay-5);
 }
 .vs-chase-dot:nth-child(6):before {
-  animation-delay: -0.6s;
+  animation-delay: var(--vs-chase-delay-6);
 }
 
 @keyframes vs-chase {
