@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{360:function(n,e,t){"use strict";t.r(e);var s={name:"app",components:{Ring:t(100).d}},i=t(45),c=Object(i.a)(s,(function(){var n=this.$createElement,e=this._self._c||n;return e("div",[e("Ring",{attrs:{color:"#fb503b",size:"80",thickness:"1",speed:"3"}})],1)}),[],!1,null,null,null);e.default=c.exports}}]);
