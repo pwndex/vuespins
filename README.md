@@ -89,9 +89,9 @@ After above steps, simply use any spinners in your Vue components
 
     // Custom Ring Spinner
     <Ring
-      color="custom-color"
-      size="custom-size"
-      thickness="custom-thickness"
+      color="custom color"
+      :size="custom size"
+      :thickness="custom thickness"
     />
   </div>
 </template>
@@ -106,7 +106,7 @@ Or you can import any spinner to your liking
     <CubeGrid />
 
     // Custom Ring Spinner
-    <CubeGrid color="custom-color" size="custom-size" />
+    <CubeGrid color="custom color" :size="custom size" />
   </div>
 </template>
 <script>
