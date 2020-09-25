@@ -1,4 +1,4 @@
-# Chase
+# RectGrid
 
 ## **Basic**
 
@@ -14,8 +14,8 @@ Basic "RectGrid" component
 | property | propType | required | default | custom |
 | :------: | :------: | :------: | :-----: | :----: |
 | `color`  |  string  |  false   | #282c34 |   -    |
-|  `size`  |  string  |  false   |   50    |   -    |
-| `speed`  |  string  |  false   |   1.2   |   -    |
+|  `size`  |  number  |  false   |   50    |   -    |
+| `speed`  |  number  |  false   |   1.2   |   -    |
 
 ### Usage
 
@@ -25,7 +25,7 @@ Basic "RectGrid" component
 
 <br>
 <client-only>
-<RectGrid color="#fb503b" size="80" speed="3" />
+<RectGrid color="#fb503b" :size="80" :speed="3" />
 </client-only>
 
 ### Props
@@ -35,8 +35,8 @@ Custom "RectGrid" component
 | property | propType | required | default | custom  |
 | :------: | :------: | :------: | :-----: | :-----: |
 | `color`  |  string  |  false   | #282c34 | #fb503b |
-|  `size`  |  string  |  false   |   50    |   80    |
-| `speed`  |  string  |  false   |   1.2   |    3    |
+|  `size`  |  number  |  false   |   50    |   80    |
+| `speed`  |  number  |  false   |   1.2   |    3    |
 
 ### Usage
 

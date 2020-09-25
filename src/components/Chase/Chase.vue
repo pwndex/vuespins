@@ -18,12 +18,12 @@ export default {
       default: '#282c34'
     },
     size: {
-      type: String,
-      default: '50'
+      type: Number,
+      default: 50
     },
     speed: {
-      type: String,
-      default: '2.5'
+      type: Number,
+      default: 2.5
     }
   },
   computed: {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Spinner color="#fb503b" size="80" speed="7" />
+    <Spinner color="#fb503b" :size="80" :speed="7" />
   </div>
 </template>
 

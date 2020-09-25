@@ -1,6 +1,6 @@
 <template>
   <div>
-    <RectGrid color="#fb503b" size="80" speed="5" />
+    <RectGrid color="#fb503b" :size="80" :speed="5" />
   </div>
 </template>
 

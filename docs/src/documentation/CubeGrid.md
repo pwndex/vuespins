@@ -14,8 +14,8 @@ Basic "CubeGrid" component
 | property | propType | required | default | custom |
 | :------: | :------: | :------: | :-----: | :----: |
 | `color`  |  string  |  false   | #282c34 |   -    |
-|  `size`  |  string  |  false   |   50    |   -    |
-| `speed`  |  string  |  false   |   1.3   |   -    |
+|  `size`  |  number  |  false   |   50    |   -    |
+| `speed`  |  number  |  false   |   1.3   |   -    |
 
 ### Usage
 
@@ -25,7 +25,7 @@ Basic "CubeGrid" component
 
 <br>
 <client-only>
-<CubeGrid color="#fb503b" size="80" speed="5" />
+<CubeGrid color="#fb503b" :size="80" :speed="5" />
 </client-only>
 
 ### Props
@@ -35,8 +35,8 @@ Custom "CubeGrid" component
 | property | propType | required | default | custom  |
 | :------: | :------: | :------: | :-----: | :-----: |
 | `color`  |  string  |  false   | #282c34 | #fb503b |
-|  `size`  |  string  |  false   |   50    |   80    |
-| `speed`  |  string  |  false   |   1.3   |    5    |
+|  `size`  |  number  |  false   |   50    |   80    |
+| `speed`  |  number  |  false   |   1.3   |    5    |
 
 ### Usage
 

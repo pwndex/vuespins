@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Square color="#fb503b" size="80" speed="5" />
+    <Square color="#fb503b" :size="80" :speed="5" />
   </div>
 </template>
 

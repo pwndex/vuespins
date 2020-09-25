@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Chase color="#fb503b" size="80" speed="5" />
+    <Chase color="#fb503b" :size="80" :speed="5" />
   </div>
 </template>
 

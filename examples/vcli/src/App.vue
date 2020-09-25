@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <Ring color="#ffffff" size="50" thickness="3" speed="2" />
-    <CubeGrid color="#ffffff" size="50" speed="2" />
-    <Spinner color="#ffffff" size="50" speed="2" />
-    <Square color="#ffffff" size="50" speed="2" />
-    <Chase color="#ffffff" size="50" speed="2" />
-    <Pulse color="#ffffff" size="50" speed="2" />
-    <RectGrid color="#ffffff" size="50" speed="2" />
+    <Ring color="#ffffff" :size="50" :thickness="3" :speed="2" />
+    <CubeGrid color="#ffffff" :size="50" :speed="2" />
+    <Spinner color="#ffffff" :size="50" :speed="2" />
+    <Square color="#ffffff" :size="50" :speed="2" />
+    <Chase color="#ffffff" :size="50" :speed="2" />
+    <Pulse color="#ffffff" :size="50" :speed="2" />
+    <RectGrid color="#ffffff" :size="50" :speed="2" />
   </div>
 </template>
 

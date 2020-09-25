@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Ring color="#fb503b" size="80" thickness="1" speed="3" />
+    <Ring color="#fb503b" :size="80" :thickness="1" :speed="3" />
   </div>
 </template>
 

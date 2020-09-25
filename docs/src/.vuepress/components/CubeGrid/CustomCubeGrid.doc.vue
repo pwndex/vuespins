@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CubeGrid color="#fb503b" size="80" speed="5" />
+    <CubeGrid color="#fb503b" :size="80" :speed="5" />
   </div>
 </template>
 

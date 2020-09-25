@@ -14,8 +14,8 @@ Basic "Spinner" component
 | property | propType | required | default | custom |
 | :------: | :------: | :------: | :-----: | :----: |
 | `color`  |  string  |  false   | #282c34 |   -    |
-|  `size`  |  string  |  false   |   50    |   -    |
-| `speed`  |  string  |  false   |    2    |   -    |
+|  `size`  |  number  |  false   |   50    |   -    |
+| `speed`  |  number  |  false   |    2    |   -    |
 
 ### Usage
 
@@ -25,7 +25,7 @@ Basic "Spinner" component
 
 <br>
 <client-only>
-<Spinner color="#fb503b" size="80" speed="7" />
+<Spinner color="#fb503b" :size="80" :speed="7" />
 </client-only>
 
 ### Props
@@ -36,7 +36,7 @@ Custom "Spinner" component
 | :------: | :------: | :------: | :-----: | :-----: |
 | `color`  |  string  |  false   | #282c34 | #fb503b |
 |  `size`  |  number  |  false   |   50    |   80    |
-| `speed`  |  string  |  false   |    2    |    7    |
+| `speed`  |  number  |  false   |    2    |    7    |
 
 ### Usage
 

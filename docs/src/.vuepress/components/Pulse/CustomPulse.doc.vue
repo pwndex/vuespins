@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Pulse color="#fb503b" size="80" speed="5" />
+    <Pulse color="#fb503b" :size="80" :speed="5" />
   </div>
 </template>
 
