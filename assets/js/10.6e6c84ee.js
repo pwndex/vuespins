@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{354:function(e,n,s){"use strict";s.r(n);var t={name:"app",components:{Pulse:s(91).Pulse}},l=s(40),u=Object(l.a)(t,(function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("Pulse",{attrs:{color:"#fb503b",size:80,speed:5}})],1)}),[],!1,null,null,null);n.default=u.exports}}]);
