@@ -11,25 +11,25 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/vuespins">
-    <img src="https://img.shields.io/npm/v/vuespins.svg" alt="NPM Version" />
+    <img src="https://flat.badgen.net/npm/v/vuespins?color=green" alt="NPM Version" />
   </a>
   <a href="https://vuejs.org">
-    <img src="https://img.shields.io/badge/vue-2.x-brightgreen.svg" alt="Vue Version" />
+    <img src="https://flat.badgen.net/badge/icon/2.x?label=vue&color=green" alt="Vue Version" />
   </a>
   <a href="https://travis-ci.com/pwndex/vuespins">
-    <img src="https://travis-ci.com/pwndex/vuespins.svg?branch=master" alt="Build Status" />
+    <img src="https://flat.badgen.net/travis/pwndex/vuespins?label=build" alt="Build Status" />
   </a>
   <a href="https://coveralls.io/github/pwndex/vuespins?branch=master">
-    <img src="https://coveralls.io/repos/github/pwndex/vuespins/badge.svg?branch=master" alt="Coverage Status" />
+    <img src="https://flat.badgen.net/coveralls/c/github/pwndex/vuespins" alt="Coverage Status" />
   </a>
   <a href="https://www.npmjs.com/package/vuespins">
-    <img src="https://img.shields.io/npm/dt/vuespins?color=success&label=npm%20downloads" alt="NPM Downloads" />
+    <img src="https://flat.badgen.net/npm/dt/vuespins?label=npm%20downloads" alt="NPM Downloads" />
   </a>
   <a href="https://bundlephobia.com/result?p=vuespins@latest">
-    <img src="https://img.shields.io/bundlephobia/min/vuespins@latest.svg" alt="Minified Size" />
+    <img src="https://flat.badgen.net/bundlephobia/min/vuespins?color=green" alt="Minified Size" />
   </a>
   <a href="https://github.com/pwndex/vuespins/blob/master/LICENSE">
-    <img src="https://img.shields.io/npm/l/vuespins.svg" alt="MIT License" />
+    <img src="https://flat.badgen.net/github/license/pwndex/vuespins?color=green" alt="MIT License" />
   </a>
 </p>
 <br>
