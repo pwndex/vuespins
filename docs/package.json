@@ -17,6 +17,6 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
-    "vuespins": "^1.0.4"
+    "vuespins": "^1.0.5"
   }
 }
