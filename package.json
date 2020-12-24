@@ -1,6 +1,6 @@
 {
   "name": "vuespins",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Css Spinners for Vue",
   "main": "dist/vuespins.ssr.js",
   "browser": "dist/vuespins.esm.js",
