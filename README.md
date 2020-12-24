@@ -25,8 +25,12 @@
   <a href="https://www.npmjs.com/package/vuespins">
     <img src="https://flat.badgen.net/npm/dt/vuespins?label=npm%20downloads" alt="NPM Downloads" />
   </a>
+  <br>
   <a href="https://bundlephobia.com/result?p=vuespins@latest">
     <img src="https://flat.badgen.net/bundlephobia/min/vuespins?color=green" alt="Minified Size" />
+  </a>
+  <a href="https://bundlephobia.com/result?p=vuespins@latest">
+    <img src="https://flat.badgen.net/bundlephobia/tree-shaking/vuespins" alt="Tree Shaking" />
   </a>
   <a href="https://github.com/pwndex/vuespins/blob/master/LICENSE">
     <img src="https://flat.badgen.net/github/license/pwndex/vuespins?color=green" alt="MIT License" />
