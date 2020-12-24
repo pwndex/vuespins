@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{360:function(e,t,n){"use strict";n.r(t);var s={name:"app",components:{RectGrid:n(91).d}},c=n(40),r=Object(c.a)(s,(function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("RectGrid",{attrs:{color:"#fb503b",size:80,speed:5}})],1)}),[],!1,null,null,null);t.default=r.exports}}]);
