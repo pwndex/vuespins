@@ -85,7 +85,7 @@ Vue.use(Vuespins)
 
 After above steps, simply use any spinners in your Vue components
 
-```vue
+```jsx
 <template>
   <div>
     // Basic Ring Spinner
@@ -103,7 +103,7 @@ After above steps, simply use any spinners in your Vue components
 
 Or you can import any spinner to your liking
 
-```vue
+```jsx
 <template>
   <div>
     // Basic Ring Spinner
